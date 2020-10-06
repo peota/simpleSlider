@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#slider {
+  position: relative;
+  height: 550px;
+}
+
+#slider .slider-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://flevix.com/wp-content/uploads/2020/07/Red-Blue-Abstract-Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.controls .back {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.controls .froward {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  color: white;
+  cursor: pointer;
+}
+
